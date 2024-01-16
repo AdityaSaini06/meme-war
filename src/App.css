@@ -1,0 +1,109 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: solid;
+}
+
+.bgimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("MemewarsWallpaper.jpg");
+  z-index: -2;
+  opacity: 0.7;
+  background-size: 100%;
+  box-shadow: 0 0 8px 8px #fff inset;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+
+#user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#middleBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#votebar {
+  display: flex;
+  border: 2px solid white;
+  width: 60rem;
+  height: 2rem;
+  margin-bottom: 3rem;
+}
+#left {
+  background-color: blue;
+  height: 100%;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+#right {
+  background-color: red;
+  height: 100%;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+#users {
+  height: 8rem;
+  width: 8rem;
+}
+
+#user0 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  height: 20rem;
+  justify-content: center;
+  position: relative;
+}
+
+#main1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 3;
+  height: 20rem;
+}
+
+#usermeme {
+  height: 150px;
+  background-color: white;
+  width: 150px;
+}
+
+.uservotingbutton {
+  height: 2.5rem;
+  width: 6rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#divider {
+  border: 2px solid white;
+  height: 20rem;
+}
+
+.user_1,.user_2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
